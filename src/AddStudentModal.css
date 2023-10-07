@@ -1,0 +1,50 @@
+/* src/AddStudentModal.css */
+
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .modal-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .modal-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .modal-container input[type="text"],
+  .modal-container input[type="email"],
+  .modal-container input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .modal-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .modal-container button.secondary {
+    background-color: #ccc;
+    margin-left: 10px;
+  }
+  
